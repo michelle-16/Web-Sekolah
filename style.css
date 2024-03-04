@@ -1,0 +1,291 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .login-container {
+    background-color: #fff;
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .register-container {
+    background-color: #fff;
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+
+  button:hover{
+   buckground-color: #0056b3;
+}
+
+ body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .banner {
+    background-image: url('banner.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .features {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .feature {
+    display: inline-block;
+    width: 30%;
+    margin: 0 2%;
+    vertical-align: top;
+  }
+  
+  .feature img {
+    width: 100px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .banner {
+    background-image: url('banner.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .features {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .feature {
+    display: inline-block;
+    width: 30%;
+    margin: 0 2%;
+    vertical-align: top;
+  }
+  
+  .feature img {
+    width: 100px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .container {
+      width: 90%;
+    }
+    
+    .feature {
+      width: 100%;
+      margin: 0 0 20px;
+    }
+  }
+
+body {font-family: Arial, Helvetica, sans-serif; margin: 0; font-weight: lighter;}
+.top {background-image: url(img/bg.jpg); background-size: cover; height: 90vh; opacity: 90%; z-index: -2;}
+.menu img {float: left; width:300px; padding-left: 90px;}
+.bghitam {background: black; height: 90vh; position: absolute; top:0; left: 0; right: 0; opacity: 50%; z-index: -3;}
+.menu ul{list-style: none;display: inline-flex; float: right; padding-right: 80px; padding-top: 20px;}
+.menu ul li{padding-right: 20px; }
+.menu ul li a {text-decoration: none; cursor: pointer; color: rgb(20, 14, 14);}
+.menu ul li a:hover {color: #1CAAE9;}
+.text { text-align: right; padding-right: 90px;padding-top: 230px; color: white; font-weight: lighter;}
+.text h1 {font-size: 40px;}
+.text p {font-size: 15px;}
+.text span {background: #1CAAE9; border-radius: 50px; padding: 15px; }
+.text span a{text-decoration: none; color: white; border: 1px solid transparent; padding-top: 20px;}
+#jurusan { padding-top: 50px; text-align: center; }
+#jurusan h2 h3 p {font-weight: lighter; }
+#jurusan p {opacity: 70%;}
+.keahlian img {width: 50px; }
+.keahlian {padding-top: 50px;}
+.grid {display: grid; grid-template-columns: 1fr 1fr 1fr; width: 80%; margin: auto;  }
+.depan { opacity: 70%; padding-top: 50px; }
+.depan img {width: 100%; z-index: -3; height: 300px;}
+.struktur img {width: 100px;}
+.organisasi {text-align: center; font-weight: lighter; padding-top: 50px;}
+.organisasi h1 {opacity: 80%;}
+.organisasi p{opacity: 50%;}
+.grid2 {display: grid; grid-template-columns: 1fr 1fr;}
+.subscribe {background: black; height: 100px; color: white; font-weight: lighter; text-align: center; opacity: 90%; padding-top: 20px; padding-bottom: 40px;}
+.subscribe a{ border: 1px solid transparent; background: red; color: white; text-decoration: none; padding: 10px; border-radius: 5px; }
+.berita{text-align: center; padding-top: 50px;}
+.berita p{opacity: 50%;}
+.grid4 {display: grid; grid-template-columns: 1fr 1fr 1fr; width: 90%; margin: auto;}
+.grid3 p h2 {text-align: left;}
+.grid3 {box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.19); padding: 20px;}
+.grid3 a{ text-decoration: none; border: 1px solid transparent;padding: 10px; background:#1CAAE9; border-radius: 50px; color: white; }
+.grid3 img {border-radius: 4px 4px 0 0;}
+.kontak {background-image: url(img/bg2.png); height: 80vh; background-size: cover; width: 100%;}
+.des {width: 20%; padding-left: 120px; color: white; padding-top: 80px;}
+.footer {background: black; color: white; opacity: 90%; padding: 20px;padding-left: 120px;}
+.footer p{opacity: 50%;}
+.footer a{text-decoration: none; color: white;}
